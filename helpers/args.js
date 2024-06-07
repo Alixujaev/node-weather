@@ -1,4 +1,4 @@
-const getArgs = (args) => {
+export const getArgs = (args) => {
   const res = {}
 
   const [executer, file, ...rest] = args
@@ -17,5 +17,3 @@ const getArgs = (args) => {
 
   return res
 }
-
-module.exports = getArgs
